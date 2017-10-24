@@ -1,0 +1,129 @@
+/* GENERAL RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main_wrapper {
+    margin: 10px;
+    font-family: 'Droid Serif', serif;
+}
+li, a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: #3498db;
+}
+/* HEADER */
+#header {
+    height: 130px;
+    border-bottom: solid 1px #bdc3c7;
+}
+#header > p {
+    padding-top: 5px;
+}
+.litle_text {
+    font-size: 0.7rem;
+}
+#logo {
+    float: left;
+    height: 50px;
+    width: 75px;
+    margin: 35px 20px;
+}
+h1 {
+    border-bottom: solid 3px #8e44ad;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    margin-top: 30px;
+    padding: 5px;
+}
+.nav_bar {
+    display: inline;
+    position: absolute;
+    float: right;
+    top: 40px;
+    right: 50px;
+}
+.nav_bar>ul>li {
+    display: inline;
+    padding-left: 20px;
+}
+input {
+    position: absolute;
+    float: right;
+    top: 80px;
+    right: 50px;
+    height: 30px;
+    width: 210px;
+}
+/* SECTION 1 */
+#main_content {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#aside_options {
+    width: 25%;
+}
+.aside {
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+    margin: 30px auto 0;
+}
+.aside>ul>li {
+    list-style: square;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+.options_empty_div {
+    height: 100px;
+    width: 200px;
+    border: solid 2px;
+    margin: 30px auto 0;
+}
+/* SECTION 2 */
+#content {
+    width: 100%;
+}
+.navigation {
+    border-bottom: solid 2px #27ae60;
+    padding: 5px 20px;
+}
+.navigation>ul>li {
+    display: inline;
+    padding-left: 10px;
+}
+.navigation + p {
+    padding: 10px 30px 0;
+}
+.navigation ~ h2 {
+    padding-left: 20px;
+    font-size: 2rem;
+}
+.content_empty_div1 {
+    height: 365px;
+    width: 700px;
+    border: solid 2px;
+    margin: 20px 20px;
+    display: inline-block;
+}
+.content_empty_div2 {
+    height: 365px;
+    width: 240px;
+    border: solid 2px;
+    margin: 20px 20px 20px 0;
+    display: inline-block;
+}
+/* FOOTER */
+#footer {
+    height: 70px;
+    vertical-align: center;
+    line-height: 70px;
+    padding-left: 30px;
+}
